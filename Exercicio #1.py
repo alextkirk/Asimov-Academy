@@ -1,0 +1,5 @@
+print("Digite sua altura:")
+altura = float(input())
+print("Digite seu peso: ")
+peso = int(input())
+print("Seu IMC é {}".format(peso / (altura * altura)))
